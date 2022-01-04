@@ -1,7 +1,7 @@
 // ToDo
 /*
 Task 1
-Import object user1 and write a function that will check if the phone number for every user is a digit
+Import object user1 and write a function that will check if the phone number for every user contains only digits
 Result:
 - if the phone number contains only digits then log true
 - if the phone number does not contain only digits then log which user's phone number is not correct
