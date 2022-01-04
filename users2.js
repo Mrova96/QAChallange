@@ -12,7 +12,7 @@ export const users = {
       "firstName": "racks",
       "lastName": "jacson",
       "phoneNumber": "123456",
-      "emailAddress": "racks.jacson@test.tt"
+      "emailAddress": "racks.jecson@test.tt"
     },
     {
       "userId": 3,

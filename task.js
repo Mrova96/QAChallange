@@ -12,6 +12,6 @@ Import objects user1 and user2 (this one is a js file, object is assigned to an 
 Result:
 - if the users1 first email address is the same as users2 first email address (users1.users[1].emailAddress === users2.users[1].emailAddress) then do not log anything
 - if the users1 first email address is not the same as users2 first email address then log that information
-something like: "email address of user with ID 2 differs between user1 and user2 objects. User1: ${user1 email address}; user2: ${user2 email address}"
+something like: "email address of user with ID 2 differs between user1 and user2 objects. user1 email is: racks.jacson@test.tt; user2 email is: racks.jecson@test.tt"
 compare email addresses, first names, last names and phone numbers
 */
