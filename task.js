@@ -4,8 +4,8 @@ Task 1
 Import object user1 and write a function that will check if the phone number for every user is a digit
 Result:
 - if the phone number contains only digits then log true
-- if the phone number does not contains only digits then log which user's phone number is not a digit
-something like: "Phone number of User with ID 2 is not a digit"
+- if the phone number does not contain only digits then log which user's phone number is not correct
+something like: "Phone number of User with ID 2 is not correct"
 
 Task 2
 Import objects user1 and user2 (this one is a js file, object is assigned to an exported const) and compare them
