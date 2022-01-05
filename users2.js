@@ -1,4 +1,4 @@
-export const users = {
+const users2 = {
   "users": [
     {
       "userId": 1,
@@ -37,3 +37,5 @@ export const users = {
     }
   ]
 }
+
+module.exports = users2;

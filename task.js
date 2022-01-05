@@ -1,17 +1,16 @@
 // ToDo
 /*
 Task 1
-Import object user1 and write a function that will check if the phone number for every user contains only digits
+Import array users1 (from user1.json file) and write a function that will check if the phone number for every single user contains only digits
 Result:
-- if the phone number contains only digits then log true
-- if the phone number does not contain only digits then log which user's phone number is not correct
-something like: "Phone number of User with ID 2 is not correct"
+- if the phone number contains only digits then log true in the console
+- if the phone number does not contain only digits then log which user's phone number is not correct e.g. "Phone number of user with ID 2 is not correct"
 
 Task 2
-Import objects user1 and user2 (this one is a js file, object is assigned to an exported const) and compare them
+Import array users1 (from user1.json file) and users2 (from user2.js file) and compare them
 Result:
-- if the users1 first email address is the same as users2 first email address (users1.users[1].emailAddress === users2.users[1].emailAddress) then do not log anything
-- if the users1 first email address is not the same as users2 first email address then log that information
-something like: "email address of user with ID 2 differs between user1 and user2 objects. user1 email is: racks.jacson@test.tt; user2 email is: racks.jecson@test.tt"
-compare email addresses, first names, last names and phone numbers
+- if the first email address of users1 is the same as the first email address of users2 (users1.users[1].emailAddress === users2.users[1].emailAddress) then do not log anything
+- if the first email address of users1 is not the same as the first email address of users2 then log in the console e.g. "Email addresses of user with ID 1 are not the same. First email is: racks.jacson@test.tt; but second email is: racks.jecson@test.tt".
+
+Compare email addresses, first names, last names and phone numbers.
 */
