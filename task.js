@@ -16,10 +16,10 @@ Compare email addresses, first names, last names and phone numbers.
 
 //wykorzystanie NodeJS'owego file systemu
 const fs=require('fs');
-//Sparsowanie danych z zewnetrznego pliku JSON do obiektu JS dla ZADANIA 2
+//Sparsowanie danych z zewnetrznego pliku JSON do obiektu JS dla ZADANIA 1
 var users1 = JSON.parse(fs.readFileSync('user1.json', 'utf8'));
 
-//Import danych z pliku JS dla ZADANIA 1
+//Import danych z pliku JS dla ZADANIA 2
 var users2 = require('./user2.js');
 
 
