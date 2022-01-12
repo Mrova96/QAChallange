@@ -8,7 +8,7 @@ function check_phone_numerics(importedArray_1)
 
             console.log("Phone number of user ID:", FAValue.userId, "is incorrect!");  //Wyswietl: string, wartosc userId z importowanego Arraya ,string
 
-        } else console.log(!importedArray_1.phoneNumber.match(regex))); //W innym wypadku: wyswietl wartosc logiczna rozwiazania problemu
+        } else console.log(Boolean(importedArray_1.phoneNumber.match(regex))); //W innym wypadku: wyswietl wartosc logiczna rozwiazania problemu
     }
 
 }
