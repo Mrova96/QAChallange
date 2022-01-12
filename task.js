@@ -17,10 +17,10 @@ Compare email addresses, first names, last names and phone numbers.
 //wykorzystanie NodeJS'owego file systemu
 const fs=require('fs');
 //Sparsowanie danych z zewnetrznego pliku JSON do obiektu JS dla ZADANIA 2
-var users1 = JSON.parse(fs.readFileSync('array.json', 'utf8'));
+var users1 = JSON.parse(fs.readFileSync('user1.json', 'utf8'));
 
 //Import danych z pliku JS dla ZADANIA 1
-var users2 = require('./users2.js');
+var users2 = require('./user2.js');
 
 
 
@@ -87,7 +87,7 @@ for (var i = 0; i < importedArray_1.length; i++){
     }
 
 }
-compare_data(users1.users, users2.users);
+compare_data(users1.users, usesr2.users);
 
 
 
