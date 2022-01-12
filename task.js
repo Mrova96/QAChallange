@@ -50,11 +50,9 @@ check_phone_numerics(users1.users);  //Wywolanie funkcji uzywajacej zaimportowan
 console.log("TASK 2: \n \n");
 
 
-
-//Email Check
 function compare_data(importedArray_1, importedArray_2) {
 
-
+//EMAIL CHECK
 for (var i = 0; i < importedArray_1.length; i++){
             if (importedArray_1[i].emailAddress === importedArray_2[i].emailAddress) {
 
@@ -63,7 +61,7 @@ for (var i = 0; i < importedArray_1.length; i++){
 
 
         }
-
+//FIRST NAME CHECK
     for (var i = 0; i < importedArray_1.length; i++){
         if (importedArray_1[i].firstName === importedArray_2[i].firstName) {
 
@@ -71,7 +69,7 @@ for (var i = 0; i < importedArray_1.length; i++){
         else console.log("MISMATCH FOUND!: First names of user with ID", importedArray_1[i].userId ,"are not the same. First name in first array  is:", importedArray_1[i].firstName, "but in the second array is:", importedArray_2[i].firstName)
 
     }
-
+//LAST NAME CHECK
     for (var i = 0; i < importedArray_1.length; i++){
         if (importedArray_1[i].lastName === importedArray_2[i].lastName) {
 
@@ -79,7 +77,7 @@ for (var i = 0; i < importedArray_1.length; i++){
         else console.log("MISMATCH FOUND!: Last names of user with ID", importedArray_1[i].userId ,"are not the same. Last name in first array  is:", importedArray_1[i].lastName, "but in the second array is:", importedArray_2[i].lastName)
 
     }
-
+//PHONE NUMBER CHECK
     for (var i = 0; i < importedArray_1.length; i++){
         if (importedArray_1[i].phoneNumber === importedArray_2[i].phoneNumber) {
 
