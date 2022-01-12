@@ -87,7 +87,7 @@ for (var i = 0; i < importedArray_1.length; i++){
     }
 
 }
-compare_data(users1.users, usesr2.users);
+compare_data(users1.users, users2.users);
 
 
 
