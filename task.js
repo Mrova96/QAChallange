@@ -5,7 +5,7 @@ Result:
 - if the phone number contains only digits then log true in the console
 - if the phone number does not contain only digits then log which user's phone number is not correct e.g. "Phone number of user with ID 2 is not correct"
 
-Task 2 IN-PROGRESS last update:
+Task 2 DONE last update: 12.01.2022 1:05
 Import array with users (from user1.json file) and users (from user2.js file) and compare them
 Result:
 - if the first email address of users1 is the same as the first email address of users2 (users1.users[1].emailAddress === users2.users[1].emailAddress) then do not log anything
@@ -38,7 +38,7 @@ function check_phone_numerics(importedArray_1)
 
             console.log("Phone number of user ID:", FAValue.userId, "is incorrect!");  //Wyswietl: string, wartosc userId z importowanego Arraya ,string
 
-        } else console.log(!isNaN(FAValue.phoneNumber)); //W innym wypadku: wyswietl wartosc logiczna problemu: czy wartosc phonenumber z importowanego arraya nie jest liczba?
+        } else console.log(!isNaN(FAValue.phoneNumber)); //W innym wypadku: wyswietl wartosc logiczna rozwiazania problemu: czy wartosc phonenumber z importowanego arraya nie jest liczba?
     }
 
 }
@@ -59,7 +59,7 @@ for (var i = 0; i < importedArray_1.length; i++){
             if (importedArray_1[i].emailAddress === importedArray_2[i].emailAddress) {
 
             }
-            else console.log("MISMATCH FOUND!: Email addresses of user with ID", importedArray_1[i].userId ,"are not the same. Email in first array is:", importedArray_1[i].emailAddress, "but in the second array is::", importedArray_2[i].emailAddress)
+            else console.log("MISMATCH FOUND!: Email addresses of user with ID", importedArray_1[i].userId ,"are not the same. Email in first array is:", importedArray_1[i].emailAddress, "but in the second array is:", importedArray_2[i].emailAddress)
 
 
         }
@@ -90,8 +90,6 @@ for (var i = 0; i < importedArray_1.length; i++){
 
 }
 compare_data(users1.users, users2.users);
-
-
 
 
 
